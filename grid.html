@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: grey;
+    }
+
+    .box{
+        height: 100px;
+        width: 100px;
+      border: 1px solid black;
+        
+    }
+    .main{
+        display: grid;
+        justify-content: center;
+      gap: 10px;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .box:nth-child(1){
+        grid-row-start: 1;
+        grid-row-end: 4;
+        height: 330px;
+        background-color: darkgoldenrod;
+    }
+    .box:nth-child(2){
+      grid-column-start: 2;
+      grid-column-end: 4;
+        width: 200px;
+        background-color: darkgoldenrod;
+    }
+    .box:nth-child(6){
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 4;
+      grid-column-end: 5;
+        height: 217px;
+        background-color: darkgoldenrod;
+    }
+    .box:nth-child(3){
+        background-color: cornflowerblue;
+    }
+    
+    .box:nth-child(4){
+        background-color: cornflowerblue;
+    }
+    
+    .box:nth-child(5){
+        background-color: cornflowerblue;
+    }
+    
+    .box:nth-child(7){
+        background-color: cornflowerblue;
+    }
+    
+    .box:nth-child(8){
+        background-color: cornflowerblue;
+    }
+</style>
+<body>
+    <div class="main">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+   
+    
+</div>
+</body>
+</html
